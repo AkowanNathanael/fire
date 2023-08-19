@@ -1,7 +1,7 @@
 // ignore_for_file: depend_on_referenced_packages
 
 // import 'package:fire/pod/app.dart';
-import 'package:fire/app2/splash.dart';
+import 'package:fire/app3/mysplash.dart';
 import 'package:flutter/material.dart';
 // import 'package:fire/php/screen.dart';
 // import 'package:fire/all/index.dart';
@@ -42,15 +42,15 @@ class _MyAppState extends ConsumerState<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       // darkTheme: ThemeData.dark(),
-      theme: isdark ? ThemeData.light() : ThemeData.dark(),
+      // theme: isdark ? ThemeData.light() : ThemeData.dark(),
       // themeMode: ThemeMode.dark,
 
-      // theme: ThemeData(
-      //     // This is
-      //     // primarySwatch: Colors.blue,
-      //     ),
+      theme: ThemeData(useMaterial3: true
+          // This is
+          // primarySwatch: Colors.blue,
+          ),
       // home: Home(),
-      home: const SplashScreen(),
+      home: SplashScreen(),
     );
   }
 }
