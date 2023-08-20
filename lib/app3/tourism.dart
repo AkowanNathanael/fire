@@ -4,8 +4,9 @@ import 'package:fire/app3/hotlines.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:url_launcher/url_launcher.dart';
-import 'package:image_picker/image_picker.dart';
-import 'dart:io';
+// import 'package:image_picker/image_picker.dart';
+// import 'dart:io';
+import 'package:fire/app3/tours.dart';
 
 class Menu extends StatefulWidget {
   const Menu({super.key});
@@ -65,6 +66,17 @@ class _MenuState extends State<Menu> {
                           }));
                         },
                         child: const Text("Hotlines")),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: TextButton(
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(
+                              builder: (BuildContext context) {
+                            return ScreenA();
+                          }));
+                        },
+                        child: const Text("Tour Area")),
                   ),
                 ],
               )
