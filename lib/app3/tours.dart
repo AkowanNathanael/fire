@@ -10,11 +10,12 @@ class ScreenA extends StatelessWidget {
     'larabanga.PNG',
     'mole_park.PNG',
     'cape cost_castlePNG.PNG',
-    'kintampo_falls.PNG',
-    'kakum.PNG',
-    'cape cost_castlePNG.PNG',
-    'kintampo_falls.PNG',
-    'kakum.PNG',
+    'kintampo_falls.PNG'
+    // ,
+    // 'kakum.PNG',
+    // 'cape cost_castlePNG.PNG',
+    // 'kintampo_falls.PNG',
+    // 'kakum.PNG',
   ];
 
   @override
