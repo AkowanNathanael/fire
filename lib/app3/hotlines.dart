@@ -25,7 +25,7 @@ class _HotlinesState extends State<Hotlines> {
         backgroundColor: Colors.pinkAccent,
         appBar: AppBar(),
         body: Container(
-          color: Colors.purpleAccent,
+          // color: Colors.purpleAccent,
           child: Column(children: [
             Padding(
               padding: const EdgeInsets.all(8.0),
